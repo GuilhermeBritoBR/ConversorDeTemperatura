@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <View style={Stylesheet.Footer}>
       <TextComponent
-        Texto={"Copyright 2024"}
+        Texto={"Copyright 2024 | BRITO"}
         StyleTexto={[StyleWords.SubTitulo, { color: "white" }]}
       />
     </View>

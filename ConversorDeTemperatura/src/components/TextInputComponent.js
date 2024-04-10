@@ -4,8 +4,14 @@ export default function TextInputComponent({
   LaborText,
   StyleInputText,
   Valor,
+  Shared,
 }) {
   return (
-    <TextInput style={StyleInputText} value={Valor} placeholder={LaborText} />
+    <TextInput
+      style={StyleInputText}
+      onChangeText={Shared}
+      value={Valor}
+      placeholder={LaborText}
+    />
   );
 }

@@ -27,4 +27,20 @@ export const Stylesheet = StyleSheet.create({
     justifyContent: "center",
     backgroundColor: "black",
   },
+  ModalPosition: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  ModalContainer: {
+    height: "50%",
+    width: "50%",
+    backgroundColor: "white",
+    alignItems: "center",
+    justifyContent: "center",
+    border: "solid",
+    borderColor: "black",
+    borderWidth: 1,
+    borderCurve: 5,
+  },
 });
